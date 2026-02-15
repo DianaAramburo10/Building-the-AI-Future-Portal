@@ -1,0 +1,183 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: rgb(244, 246, 248);
+    color: rgb(39, 51, 79);
+    line-height: 1.6;
+}
+
+/* font para los headings */
+h1, h2, h3 {
+    font-family: "Orbitron", sans-serif;
+    margin-top: 0;
+}
+
+/*titulo principal */
+#main-header {
+    background: rgb(26, 46, 62);       
+    color: white;
+    text-align: center;
+    padding: 48px 16px 40px;
+}
+
+#main-header h1 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* parrafo del titulo principal */
+#main-header p {
+    margin: 0;
+    color: rgb(189, 205, 223);
+    font-weight: 500;
+}
+
+/* barra de navegacion*/
+nav {
+    background: rgb(50, 59, 70);       
+    padding: 10px 0;
+    border-top: 10px solid rgb(244, 246, 248); 
+    border-bottom: 6px solid rgb(244, 246, 248);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;      
+    margin: 0 18px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgb(189, 205, 223);
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+nav ul li a:active {
+    background: rgb(12, 31, 138);
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}  
+
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(63, 63, 207);
+    border-radius: 4px;
+}
+
+
+nav ul li:last-child a {
+    border-bottom: 1px dashed rgb(7, 159, 7); 
+    padding: 6px 10px;
+  }
+  
+/* Container*/
+.container {
+    max-width: 900px;       
+    margin: 0 auto;
+    padding: 28px 16px 50px;
+}
+
+/* titulos de la seccion */
+section h2 {
+    color: rgb(38, 65, 83);
+    font-size: 28px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2d7dff; /* rayita azul */
+}
+
+section {
+    margin-bottom: 34px;
+}
+
+/*Cajita azul */
+.highlight {
+    background: #e9f4ff;    /* cajita azul */
+    border-left: 6px solid #2d7dff;  /* borde de la cajita azul */
+    padding: 14px 16px;
+    margin: 18px 0 0;
+    font-style: italic;
+    color: rgb(34, 64, 98);
+}
+
+/* Cajitas */
+.tool-card {
+    background: white;
+    border-radius: 6px;
+    padding: 18px 18px;
+    margin: 14px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* sombra */
+    border: 1px solid rgb(242, 247, 250);
+}
+
+.tool-card h3 { 
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 20px;
+    font-size: 18px;
+    color: rgb(18, 188, 32);      
+}
+
+.tool-card p {
+    margin: 0;
+    color: rgb(32, 55, 73);
+    font-size: 14px;
+}
+
+/* tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border: 1px solid rgb(241, 246, 250);
+}
+
+thead {
+    background: rgb(0, 110, 255);
+    color: white;
+}
+
+th, td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid rgb(241, 246, 250);
+    font-size: 14px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(221, 225, 227);
+}
+
+tbody tr:hover {
+    background: rgb(176, 204, 236);
+}
+
+/*pie de página*/
+footer {
+    background: rgb(39, 51, 79);
+    color: rgb(189, 205, 223);
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 13px;
+}
